@@ -9,6 +9,7 @@ public class Direccion {
     private String provincia;
     private String pais;
 
+    // Constructor
     public Direccion(String tipo, String callePrincipal, String calleSecundaria,
                      String numeracion, String ciudad, String provincia, String pais) {
         this.type = type;
